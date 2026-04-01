@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Session Page</h2>
+
+{% if username %}
+    <h3>Stored Session: {{ username }}</h3>
+{% else %}
+    <h3>No session data</h3>
+{% endif %}
+
+</body>
+</html>
